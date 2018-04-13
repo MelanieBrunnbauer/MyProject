@@ -14,6 +14,10 @@ This is my private webapp to practice tools and techniques.
     `<maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>`
 - mvn package
-    - erzeugt .jar in targetfolder
+    - erzeugt .jar in directory `/target`
     - Inhalt des jars ansehen: `jar -tf gardener-1.0-SNAPSHOT.jar`
+    
+- mvn install
+    - installiert .jar und pom.xml in `.m2/repository`
+    
     
