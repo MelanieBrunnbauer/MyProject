@@ -2,7 +2,7 @@
 This is my private webapp to practice tools and techniques.
 
 1. Maven
-- maven compile
+- mvn compile
     - erzeugt target Folder, mit Subfolder classes, in diesem befinden sich die kompilierten .class Files 
     - Problem 1:
     `[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!`
@@ -13,4 +13,7 @@ This is my private webapp to practice tools and techniques.
         - Lösung: Spezifiziere Java Version für source und target explizit in pom.xml: 
     `<maven.compiler.source>1.8</maven.compiler.source>
      <maven.compiler.target>1.8</maven.compiler.target>`
-
+- mvn package
+    - erzeugt .jar in targetfolder
+    - Inhalt des jars ansehen: `jar -tf gardener-1.0-SNAPSHOT.jar`
+    
