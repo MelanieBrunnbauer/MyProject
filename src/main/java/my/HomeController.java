@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index() {
-        return "Hallo!";
+        return "Hier entsteht unsere Tipp-App für die WM 2018!";
     }
 
 }
